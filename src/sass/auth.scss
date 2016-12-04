@@ -12,6 +12,7 @@ html {
 body {
   @include main-background();
   height: 100%;
+  -webkit-font-smoothing: antialiased;
 }
 
 $text-color: #ffffff;

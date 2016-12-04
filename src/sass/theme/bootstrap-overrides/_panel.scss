@@ -9,9 +9,9 @@ $panel-heading-font-size: 16px;
   border-radius: 5px;
   position: relative;
   margin-bottom: 24px;
-  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
   &.animated {
-    animation-duration: 0.5s;
+    animation-duration: 0.0s;
   }
   &.small-panel {
     height: $small-panel-height;
@@ -49,7 +49,7 @@ $panel-heading-font-size: 16px;
 
 .panel {
   > .panel-body {
-    padding: 15px 22px;
+    padding: 20px 22px 40px 20px;
     height: 100%;
   }
   > .panel-heading {
@@ -68,7 +68,7 @@ $panel-heading-font-size: 16px;
   height: $panel-title-height;
   font-size: $panel-heading-font-size;
   $vertical-padding: ($panel-title-height - $panel-heading-font-size) / 2;
-  padding: $vertical-padding 22px;
+  padding: $vertical-padding 22px $vertical-padding 20px;
 }
 
 .panel-title {

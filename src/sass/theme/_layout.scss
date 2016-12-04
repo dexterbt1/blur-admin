@@ -1,4 +1,4 @@
-$left-space: 180px;
+$left-space: 220px;
 
 @include scrollbars(.5em, #d9d9d9, rgba(0,0,0,0));
 
@@ -14,6 +14,7 @@ html, body {
 
 body {
   font: 14px/16px $font-family;
+  -webkit-font-smoothing: antialiased;
   color: $default-text;
   background-color: $body-bg;
   &.blur-theme {
@@ -145,7 +146,7 @@ a {
 }
 
 .al-content {
-  padding: 8px 32px 8px 40px;
+  padding: 8px 28px 8px 28px;
 }
 
 @media screen and (max-width: $resXS) {
